@@ -1,0 +1,146 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+nav {
+  background-color: orange;
+  font-size: 20px;
+  padding: 5px;
+}
+
+a {
+  color: black;
+}
+
+.company-name {
+  text-align: center;
+  font-size: 50px;
+}
+
+.company-logo {
+  height: 100px;
+  width: 120px;
+}
+
+.main-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.info-text {
+  background-color: orange;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 100px;
+}
+
+.line {
+  height: 50px;
+}
+
+.main-page-ad-container {
+  width: 30%;
+  text-align: center;
+  margin: 50px;
+  display: inline-block;
+}
+
+.main-page-ad-pic {
+  height: 300px;
+  width: 300px;
+}
+
+table {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+li {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.help-page {
+  background-color: orange;
+  margin-top: 10px;
+  padding: 40px;
+}
+
+td {
+  padding-top: 10px;
+}
+
+.help-form {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.products-container {
+  background-color: orange;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.product-page-container {
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.products-info {
+  text-align: center;
+}
+
+.net-list {
+  list-style-type: none;
+  text-align: left;
+}
+
+.products-page-container {
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  width: 43%;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 100px;
+}
+
+.products-page-pic {
+  height: 490px;
+  width: 790px;
+  margin: 0 auto;
+}
+
+.product-page-paragraph {
+  font-weight: bold; 
+  font-size: 50px;
+  background-color: white;
+}
+
+.animated {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+
+    animation: myAnimation 4s 1;
+
+  }
+  @keyframes myAnimation {
+      5% { top: 0; left: 0; }
+      25% { top: 67%; left: 0px; }
+      50% { top: 67%; left: 84%; }
+      75% { top: 0px; left: 84%; }
+      100% { top: 0px; left: 0; }
+}
