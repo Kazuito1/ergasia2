@@ -139,8 +139,8 @@ td {
   }
   @keyframes myAnimation {
       5% { top: 0; left: 0; }
-      25% { top: 67%; left: 0px; }
-      50% { top: 67%; left: 84%; }
+      25% { top: 68%; left: 0px; }
+      50% { top: 68%; left: 84%; }
       75% { top: 0px; left: 84%; }
       100% { top: 0px; left: 0; }
 }
